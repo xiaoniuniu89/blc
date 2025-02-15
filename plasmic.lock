@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "projectId": "qjHebJopU8JyneJPfvm2YG",
+      "version": "latest",
+      "dependencies": {},
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "2XY4nHkmNJjH",
+          "checksum": "8f52137cb4b2a272e4b879477f4bc1cf"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "u2sMX-DNLvNk",
+          "checksum": "e54693376f89d91a8aa3972cc7727b20"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "u2sMX-DNLvNk",
+          "checksum": "e54693376f89d91a8aa3972cc7727b20"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "m3UaBm1xqS6l",
+          "checksum": "90d1467790d75457ed24690d32b07423"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "m3UaBm1xqS6l",
+          "checksum": "90d1467790d75457ed24690d32b07423"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "15xECI0Cgabi",
+          "checksum": "be2dd29dd6ee900d54303b9bcef5551d"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "15xECI0Cgabi",
+          "checksum": "be2dd29dd6ee900d54303b9bcef5551d"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "35C2ZTI5FjJK",
+          "checksum": "41994066a01b073e0cb1da296b401016"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "35C2ZTI5FjJK",
+          "checksum": "41994066a01b073e0cb1da296b401016"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "PJh-iYRY8EJt",
+          "checksum": "d4ebf4d7dc16528a8aa4c16397ea0097"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "PJh-iYRY8EJt",
+          "checksum": "d4ebf4d7dc16528a8aa4c16397ea0097"
+        },
+        {
+          "assetId": "qjHebJopU8JyneJPfvm2YG",
+          "type": "projectCss",
+          "checksum": "90c0db1262e12d1983c0e3cac923f8d2"
+        }
+      ],
+      "codegenVersion": "0.0.1"
+    }
+  ],
+  "cliVersion": "0.1.334"
+}

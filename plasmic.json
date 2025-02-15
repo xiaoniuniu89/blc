@@ -1,0 +1,154 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "../generated/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "inlined",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "../generated",
+  "projects": [
+    {
+      "projectId": "qjHebJopU8JyneJPfvm2YG",
+      "projectApiToken": "bIVUwBpEej1Hgc4CVDaHculdNuO6Nt8Mlk69KkBAXN9KA9TVM9XHoeTvRhOO5OS1K7SHRhVuTmwr0jMw",
+      "projectName": "bcl",
+      "version": "latest",
+      "cssFilePath": "../generated/bcl/plasmic.module.css",
+      "components": [
+        {
+          "id": "u2sMX-DNLvNk",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "qjHebJopU8JyneJPfvm2YG",
+          "renderModuleFilePath": "../generated/bcl/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage/Homepage.tsx"
+          },
+          "cssFilePath": "../generated/bcl/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "m3UaBm1xqS6l",
+          "name": "ComponentCard",
+          "type": "managed",
+          "projectId": "qjHebJopU8JyneJPfvm2YG",
+          "renderModuleFilePath": "../generated/bcl/PlasmicComponentCard.tsx",
+          "importSpec": {
+            "modulePath": "ComponentCard/ComponentCard.tsx"
+          },
+          "cssFilePath": "../generated/bcl/PlasmicComponentCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "15xECI0Cgabi",
+          "name": "ButtonPage",
+          "type": "managed",
+          "projectId": "qjHebJopU8JyneJPfvm2YG",
+          "renderModuleFilePath": "../generated/bcl/PlasmicButtonPage.tsx",
+          "importSpec": {
+            "modulePath": "ButtonPage/ButtonPage.tsx"
+          },
+          "cssFilePath": "../generated/bcl/PlasmicButtonPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/button-page"
+        },
+        {
+          "id": "35C2ZTI5FjJK",
+          "name": "InputPage",
+          "type": "managed",
+          "projectId": "qjHebJopU8JyneJPfvm2YG",
+          "renderModuleFilePath": "../generated/bcl/PlasmicInputPage.tsx",
+          "importSpec": {
+            "modulePath": "InputPage/InputPage.tsx"
+          },
+          "cssFilePath": "../generated/bcl/PlasmicInputPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/input-page"
+        },
+        {
+          "id": "PJh-iYRY8EJt",
+          "name": "CardPage",
+          "type": "managed",
+          "projectId": "qjHebJopU8JyneJPfvm2YG",
+          "renderModuleFilePath": "../generated/bcl/PlasmicCardPage.tsx",
+          "importSpec": {
+            "modulePath": "CardPage/CardPage.tsx"
+          },
+          "cssFilePath": "../generated/bcl/PlasmicCardPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/card-page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "rZoDOTUoE9JC",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "dAaMplFf2_I4",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "HOBhl5zXi59s",
+          "name": "Button",
+          "displayName": "Button",
+          "componentImportPath": "./src/patterns/Button/Button"
+        },
+        {
+          "id": "dPNUWsrK6tyC",
+          "name": "Input",
+          "displayName": "Input",
+          "componentImportPath": "./src/patterns/Input/Input"
+        },
+        {
+          "id": "ql2LYIq--9pW",
+          "name": "Card",
+          "displayName": "Card",
+          "componentImportPath": "./src/patterns/Card/Card"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "2XY4nHkmNJjH",
+        "name": "Screen",
+        "projectId": "qjHebJopU8JyneJPfvm2YG",
+        "contextFilePath": "../generated/bcl/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.334",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.334/dist/plasmic.schema.json"
+}
