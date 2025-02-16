@@ -9,7 +9,7 @@ export const registerButtonComponent = () =>
       label: "string",
       variant: {
         type: "choice",
-        options: ["primary", "secondary"],
+        options: ["primary", "secondary", "tertiary"],
       },
       disabled: "boolean",
       className: "string",

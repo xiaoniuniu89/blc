@@ -2,7 +2,7 @@ import styles from "./Button.module.css";
 
 interface ButtonProps {
   label: string;
-  variant?: "primary" | "secondary";
+  variant?: "primary" | "secondary" | "tertiary";
   disabled?: boolean;
   onClick?: () => void;
   className?: string;
@@ -13,7 +13,7 @@ export function Button(props: ButtonProps) {
 
   return (
     <button
-      className={`${styles.button} ${variant === "primary" ? styles.primary : styles.secondary} ${className}`}
+      className={`${styles.button} ${variant === "primary" ? styles.primary : variant ==="secondary" ? styles.secondary : styles.tertiary} ${className}`}
       disabled={disabled}
       onClick={onClick}
     >

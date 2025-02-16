@@ -1,6 +1,9 @@
 {
   "name": "bcl",
   "private": true,
+  "workspaces": [
+    "src/patterns/*"
+  ],
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,6 +14,7 @@
     "plasmic": "plasmic sync"
   },
   "dependencies": {
+    "@changesets/cli": "^2.27.12",
     "@plasmicapp/loader": "^0.0.59",
     "@plasmicapp/react-web": "^0.2.370",
     "react": "^19.0.0",
