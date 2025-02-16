@@ -12,7 +12,7 @@ export function Card(props: CardProps) {
 
   return (
     <div className={`${styles.card} ${className}`} onClick={onClick}>
-      <h3>{title}</h3>
+      {title && <h3>{title}</h3> }
       <div>{children}</div>
     </div>
   );
